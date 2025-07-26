@@ -1,5 +1,6 @@
 body {
-  background-color: aliceblue;
+  background-color: #eab996;;
+  font-family: sans-serif;
 }
 
 header {
@@ -9,34 +10,51 @@ header {
 }
 /* navbar */
 nav {
-  margin-top: 30px;
+  margin: 30px 20px;
+  
 }
 
 nav > button {
   padding: 10px 25px;
+  border: none;
+  background-color:#f5f1e3;
+  color: #e67e22;
 }
 
 .active-btn {
-  background-color: aqua;
+  background-color: #d35400;
+  color: white;
+  /* background-color: aqua; */
 }
 
 h1 {
   text-align: center;
-  margin: 40px 0px;
+  margin: 20px 0px;
 }
 
 /* Home page */
 
 .home-section {
-  background: url('./images/dosa01.jpg') center/cover no-repeat;
-  color: white;
+  background: center/cover no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('./images/dosa01.jpg');
+  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   padding: 3rem 1rem;
   height: 100vh;
+  
 }
+
+.home-section h1 {
+    font-size: 3rem;
+}
+.home-section p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
 
 /* menu page  */
 .menu-section,
