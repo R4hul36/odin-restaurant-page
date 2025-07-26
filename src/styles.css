@@ -1,34 +1,65 @@
 body {
-    background-color: aliceblue;
+  background-color: aliceblue;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* navbar */
+nav {
+  margin-top: 30px;
+}
+
+nav > button {
+  padding: 10px 25px;
+}
+
+.active-btn {
+  background-color: aqua;
 }
 
 h1 {
-    text-align: center;
-    margin: 40px 0px
+  text-align: center;
+  margin: 40px 0px;
 }
 
-.menu-section {
-    width: 65%;
-    margin: auto;
+/* Home page */
+
+.home-section {
+  background: url('./images/dosa01.jpg') center/cover no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 1rem;
+  height: 100vh;
+}
+
+/* menu page  */
+.menu-section,
+.home-section {
+  width: 65%;
+  margin: auto;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 420px));
-    justify-content: center;
-    gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 420px));
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .menu-item {
-    background-color: white;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .menu-item > img {
-    width: 100%;
-    height: 275px;
-    
+  width: 100%;
+  height: 275px;
 }
-
