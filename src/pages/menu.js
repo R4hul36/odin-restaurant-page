@@ -30,7 +30,7 @@ export const loadMenu = function () {
         },
         {
             image:bhuri,
-            name: "Dosa",
+            name: "Bhuri",
             price: "$4.99",
             description: "Yummy Bhuri with adequate amount of potato curry"
         },
